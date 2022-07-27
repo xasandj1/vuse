@@ -1,0 +1,347 @@
+
+@media (max-width:1840px){
+    /* .panel__list:hover{
+        width: 220px;
+    } */
+    .nav__card{
+        padding: 25px 80px;
+    }
+}
+
+@media (max-width:1575px){
+    /* .panel__list:hover{
+        width: 180px;
+    } */
+    .nav__card{
+        padding: 25px 65px;
+    }
+}
+
+@media (max-width:1440px) {
+    .kursor , .kursor2{
+        width: 10%;
+    }
+    .main-img{
+        width: 560px;
+        height: 560px;
+    }
+    .Vuse{
+        row-gap: 30px;
+        padding-left: 25px;
+    }
+    .Solo{
+        font-size: 55px;
+        line-height: 55px;
+    }
+}
+
+@media (max-width:1180px) {
+    .rtasm__png{
+        display: flex;
+        align-items: center;
+    }
+    .main-img{
+        width: 450px;
+        height: 450px;
+    }    
+}
+
+@media (max-width:1333px) {
+    .kursor , .strelki {
+        display: none;
+    }
+    .carusel{
+        column-gap: 20px;
+    }
+}
+
+@media (max-width:1359px){
+    /* .panel__list:hover{
+        width: 150px;
+    } */
+    .nav__card{
+        padding: 25px 45px;
+    }
+}
+
+@media (max-width:1359px) {
+    .ikonka {
+        position: absolute;
+        top: 8px;
+        right: 21px;
+        column-gap: 20px;
+        /* display: block; */
+    }
+}
+
+@media (max-width:1065px){
+    .nav__card{
+        padding: 25px 33px;
+    }
+}
+
+@media (max-width:991px) {
+    .ikonka {
+        top: 35px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .header__nav{
+        z-index: 1;
+    }
+}
+
+@media (max-width:964px) {
+    .header__content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .qidirish {
+        order: 10;
+
+        z-index: 1;
+        margin-bottom: -8px;
+    }
+    .ikonka{
+    z-index: +1;
+        position: unset;
+        padding: 0;
+    }
+    .section__header-content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    .nomer {
+        display: none; 
+    }
+    .raspisaniya{
+        z-index: +1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 20px;
+        border: 1px solid #D8D8D8;
+        border-radius: 50%;
+        width: 38px;
+        height: 38px;
+    }
+    .time{
+        display: none;
+        /* align-items: center;
+        justify-content: center;
+        margin: 0; */
+    }
+    .section__header-content{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    .search{
+        margin: 0 10px;
+        width: 396px;
+        left: 0;
+        right: 0;
+    }
+    .header__link-card{
+        padding-right: 19px;
+        z-index: 1;
+    }
+    /* .qidirish{
+        width: 100%;
+    } */
+}
+
+@media (max-width:936px){
+    .main__cards{
+        display: none;
+    }
+    .section__header-content{
+        row-gap: 5px;
+    }
+}
+
+@media (max-width:468px){
+    .section__header-content{
+        column-gap: 10px;
+    }
+    .ikonka{
+        column-gap: 10px;
+    }
+}
+
+@media (max-width:840px) {
+    .displey__nane-secction{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #F6F6F6;
+    }
+    .nane-secction{
+        background: url(../img/fon.png) no-repeat center / cover;
+        background-color: #461E4D;
+    }
+    .medias{
+        display: flex;
+    }
+    .main2img{
+        padding: 9px;
+    }
+    .mini__main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5px;
+    }
+    .Device{
+        font-size: 12px;
+        line-height: 120%;
+        width: 375px;
+        height: 42px;
+    }
+    .main2img__txt{
+        color:#FFFFFF;
+    }
+    .main2img__txt-first{
+        color: #000000 !important;
+    }
+    .kotta__div{
+        display: none;
+    }
+}
+
+@media (max-width:518px) {
+    .Device{
+        width: 265px;
+        padding: 5px;
+    }
+}
+
+@media (max-width:448px) {
+    .search{
+        margin: 0 10px;
+        width: 252px;
+        left: 0;
+        right: 0;
+    }
+    .header__link-card {
+        padding-right: 27px;
+    }
+    .time{
+        display: none;
+    }
+    .section__header-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 0 10px;
+    }
+    .ikonka{ 
+        display: none;
+        position: absolute;
+        top: -7px;
+        right: 21px;
+        column-gap: 19px;
+    }
+    .ikonka__link:nth-child(2){
+        display: none;
+    }
+    /* .card__nomer-css{
+        padding-left: 30px;
+    } */
+
+    .header__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:424px){
+    .card__nomer-css{
+        display:block;
+    }
+}
+@media (max-width:425px){
+    .card__nomer-css{
+        display: none;
+    }
+    .search{
+        width: 313px;
+    }
+    .ikonka{
+        display: none;
+    }
+    .header__nav{
+        width: 100%;
+    }
+    .raspisaniya{
+        display: none;
+    }
+    .search {
+        width: 291px;
+    }       
+    .section__header-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .qidirish{
+        padding-top: 15px;
+        position: relative;
+        z-index: 1;
+    }
+    .header__link-card{
+        padding-top: 15px;
+    }
+    .header__content{
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 390px){
+    .mini__main{
+        row-gap: 10px;
+    }
+    .Device{
+        width: 200px;
+    }
+    .ePod{
+        width: 245px;
+    }
+}
+
+    @media (max-width: 330px){
+        .header__content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+    }
+
+
+@media (max-width: 320px){
+
+    .header__nav {
+        width: 326px;
+    }
+
+}
+
+@media (max-width: 280px){
+    .header__nav{
+    width: 280px;
+    }
+    .search {
+        width: 240px;
+    }
+}
